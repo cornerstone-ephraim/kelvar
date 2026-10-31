@@ -49,8 +49,8 @@ export const motorworks = {
       name: "Delivery",
       description:
         "An urban delivery format for parcels, food logistics, and short-distance movement.",
-      image: `${assetRoot}/motorworks-delivery.webp`,
-      imageAlt: "Kelvar three-wheel vehicle configured for delivery work",
+      image: `${assetRoot}/motorworks-side-profile.webp`,
+      imageAlt: "Side profile of the Kelvar three-wheel cargo vehicle",
     },
     {
       name: "Business",
@@ -63,8 +63,8 @@ export const motorworks = {
       name: "Personal",
       description:
         "An everyday electric format with additional enclosed carrying space.",
-      image: `${assetRoot}/motorworks-personal.webp`,
-      imageAlt: "Rider using the Kelvar vehicle for personal mobility",
+      image: `${assetRoot}/motorworks-rear-view.webp`,
+      imageAlt: "Rear view of the Kelvar three-wheel vehicle",
     },
     {
       name: "Fleet",
