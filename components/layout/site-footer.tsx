@@ -39,9 +39,9 @@ export function SiteFooter() {
           </div>
 
           <p className="mt-7 border-t border-white/8 pt-7 font-mono text-[0.62rem] leading-[1.8] text-dim">
-            Kelvar Industries develops autonomous surveillance and atmospheric
-            intelligence systems across air, land, sea, and space. Platform
-            capabilities described on this website may include systems in active
+            Kelvar Industries develops autonomous surveillance, atmospheric
+            intelligence, and electric mobility systems. Capabilities described
+            on this website may include systems and concepts in active
             development.
           </p>
         </div>
@@ -70,7 +70,7 @@ function FooterBrand() {
 
       <p className="mt-7 max-w-[42ch] font-mono text-xs-plus leading-[1.9] text-muted">
         Engineering intelligent autonomous systems for persistent awareness,
-        resilient protection, and atmospheric intelligence.
+        resilient protection, atmospheric intelligence, and electric mobility.
       </p>
 
       <Link
@@ -133,13 +133,21 @@ function FooterContact() {
         <p className="font-mono text-[0.62rem] uppercase tracking-[0.2em] text-dim">
           Programme
         </p>
-        <Link
-          href="/kelvarx"
-          className="group mt-3 inline-flex items-center gap-3 font-heading text-2xl font-bold uppercase text-white/65 transition-colors hover:text-primary"
-        >
-          KELVARX
-          <BsArrowRight className="text-sm transition-transform duration-300 group-hover:translate-x-1.5" />
-        </Link>
+        <div className="mt-3 flex flex-col items-start gap-3">
+          {[
+            { href: "/kelvarx", label: "KELVARX" },
+            { href: "/motorworks", label: "Kelvar Motor Works" },
+          ].map((programme) => (
+            <Link
+              key={programme.href}
+              href={programme.href}
+              className="group inline-flex items-center gap-3 font-heading text-2xl font-bold uppercase text-white/65 transition-colors hover:text-primary"
+            >
+              {programme.label}
+              <BsArrowRight className="text-sm transition-transform duration-300 group-hover:translate-x-1.5" />
+            </Link>
+          ))}
+        </div>
       </div>
     </div>
   );

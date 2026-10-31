@@ -28,5 +28,6 @@ export const platformNavLinks = [
 
 export const researchNavLinks = [
   { href: "/kelvarx", label: "KELVARX" },
+  { href: "/motorworks", label: "Kelvar Motor Works" },
 ] satisfies NavigationLink[];
 import type { NavigationLink } from "@/types/content-types";

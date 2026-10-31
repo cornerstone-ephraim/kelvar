@@ -1,6 +1,7 @@
 import { describe, expect, test } from "bun:test";
 import { productDetails } from "@/content/products/dome";
 import { platformSummaries } from "@/content/products/summaries";
+import { researchNavLinks } from "@/content/site";
 import {
   ALL,
   filterRoles,
@@ -25,6 +26,15 @@ describe("product content integrity", () => {
     );
 
     expect(stratokite?.href).toBe("/kelvarx/stratokite");
+  });
+
+  test("lists Motor Works as an RD&D programme", () => {
+    expect(
+      researchNavLinks.some(
+        ({ href, label }) =>
+          href === "/motorworks" && label === "Kelvar Motor Works",
+      ),
+    ).toBe(true);
   });
 
   test("uses unique summary and detail slugs", () => {

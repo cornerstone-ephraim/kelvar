@@ -1,0 +1,24 @@
+.scrollArea {
+  scrollbar-color: color-mix(in srgb, var(--primary) 42%, transparent)
+    transparent;
+  scrollbar-width: thin;
+}
+
+.scrollArea::-webkit-scrollbar {
+  height: 2px;
+}
+
+.scrollArea::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollArea::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--primary) 42%, transparent);
+}
+
+@media (min-width: 48rem) {
+  .scrollArea::-webkit-scrollbar {
+    height: 3px;
+  }
+}

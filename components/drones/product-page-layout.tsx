@@ -1,14 +1,14 @@
 import type { ProductDetail } from "@/types/product-types";
 import { ProductVideoHero } from "./product-video-hero";
 import { DomeProductStory } from "./dome-product-story";
-import { ProductSectionNav } from "@/components/products/product-section-nav";
+import { ProductPageNavigation } from "@/components/products/product-page-navigation";
 import { ProductStatusBand } from "@/components/products/product-status-band";
 
 export function ProductPageLayout({ product }: { product: ProductDetail }) {
   return (
     <div className="min-h-screen bg-bg">
       <ProductVideoHero product={product} />
-      <ProductSectionNav
+      <ProductPageNavigation
         productName={product.name}
         links={[
           { href: "#overview", label: "Overview" },

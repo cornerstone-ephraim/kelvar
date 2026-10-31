@@ -6,7 +6,7 @@ import { LazyVideo } from "@/components/ui/lazy-video";
 import { kelvarx } from "@/content/kelvarx";
 import { stratokiteMedia } from "@/content/products/stratokite";
 import { StratokiteMediaSection } from "./stratokite-media-section";
-import { ProductSectionNav } from "@/components/products/product-section-nav";
+import { ProductPageNavigation } from "@/components/products/product-page-navigation";
 import { ProductStatusBand } from "@/components/products/product-status-band";
 import { ProductNarrativeIntro } from "@/components/products/product-narrative-intro";
 import { TechnicalDataTable } from "@/components/products/technical-data-table";
@@ -41,7 +41,7 @@ export function StratokitePage() {
         </div>
       </section>
 
-      <ProductSectionNav
+      <ProductPageNavigation
         productName="StratoKite"
         links={[
           { href: "#overview", label: "Overview" },

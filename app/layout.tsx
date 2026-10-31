@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     template: "%s | Kelvar Industries",
   },
   description:
-    "Kelvar Industries engineers intelligent autonomous drones, robotics, surveillance, and atmospheric systems for persistent awareness and resilient protection.",
+    "Kelvar Industries engineers intelligent autonomous drones, robotics, surveillance, atmospheric systems, and electric mobility concepts.",
   keywords: [
     "Kelvar Industries",
     "autonomous systems",
@@ -77,6 +77,7 @@ export const metadata: Metadata = {
     "atmospheric intelligence",
     "unmanned aerial systems",
     "computer vision",
+    "electric urban mobility",
     "defence and security technology",
   ],
   authors: [{ name: "Kelvar Industries" }],
@@ -99,7 +100,7 @@ export const metadata: Metadata = {
     url: "/",
     title: "Kelvar Industries | Intelligent Autonomous Systems",
     description:
-      "Engineering intelligent autonomous drones, robotics, surveillance, and atmospheric systems for persistent awareness and resilient protection.",
+      "Engineering autonomous drones, robotics, surveillance, atmospheric intelligence, and electric urban mobility systems.",
     siteName: "Kelvar Industries",
     images: [
       {
@@ -114,7 +115,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Kelvar Industries | Intelligent Autonomous Systems",
     description:
-      "Engineering autonomous drones, robotics, surveillance, and atmospheric intelligence systems.",
+      "Engineering autonomous drones, robotics, atmospheric intelligence, and electric urban mobility systems.",
     images: ["/assets/images/brand/kelvar-thumbnail.png"],
   },
   robots: {

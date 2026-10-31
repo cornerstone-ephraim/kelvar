@@ -5,7 +5,7 @@ import { SectionLabel } from "../ui/section-label";
 import { ScrollingText } from "../ui/scrolling-text";
 
 const introParagraphs = [
-  "Our RD&D division drives the continuous evolution of autonomous surveillance through rigorous research, precision design, and real-world testing.",
+  "Our RD&D division advances autonomous surveillance, atmospheric intelligence, and electric mobility through rigorous research, precision design, and real-world testing.",
   "We operate at the intersection of hardware, software, and intelligence, building systems that are not only functional, but adaptive, resilient, and future-ready. From early-stage concept modeling to full-scale deployment, every Kelvar platform is developed with a singular objective: operational superiority in dynamic environments.",
   "Our process is iterative and uncompromising. We test in complexity, refine through data, and deploy with confidence, ensuring that every system performs when it matters most.",
 ];

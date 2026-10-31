@@ -1,0 +1,18 @@
+.wash {
+  background: linear-gradient(
+    90deg,
+    var(--bg) 0%,
+    color-mix(in srgb, var(--bg) 88%, transparent) 27%,
+    color-mix(in srgb, var(--bg) 24%, transparent) 63%,
+    color-mix(in srgb, var(--bg) 18%, transparent) 100%
+  );
+}
+
+.vignette {
+  background: linear-gradient(
+    to top,
+    var(--bg) 0%,
+    transparent 50%,
+    color-mix(in srgb, var(--bg) 40%, transparent) 100%
+  );
+}
